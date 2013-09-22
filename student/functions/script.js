@@ -29,7 +29,7 @@ $(function(){
 				}else if($('#password').val()==""){
 					$('.login-error').html('Please enter your password.');
 				}else if(i==1){
-					window.location="grades";
+					window.location="http://gordoncollegeccs.edu.ph/ccswebsite/student/grades/index.php";
 				}else if(i==2){
 					$('.login-error').html('The password you entered is incorrect.');
 				}else if(i==4){
